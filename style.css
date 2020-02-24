@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 112vw;
+}
+
+.first-page {
+    height: 59%;
+    background-image: url(img/bg-img.png);
+    background-size: cover;
+}
+.header {
+    width: 80%;
+    height: 14.7%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    font-family: "Pacifico", cursive;
+    margin-left: 1.5%;
+}
+.header__menu {
+    height: 14.7%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1.5%;
+}
+.menu__element {
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    border-top: 3px solid transparent;
+}
+.menu__element:hover {
+    border-top: 3px solid #ff6033;
+    transform: scale(1.1, 1.1);
+    transition: .1s ease-in;
+    color: gray;
+}
+main {
+    background-color: #00afaf;
+}
+.main {
+    width: 80%;
+    height: 46.6vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__text {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text__title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    color: white;
+}
+.text__title_first-page {
+    font-weight: 800;
+    font-size: 60px;
+    color: #262626;
+}
+.text__content {
+    color: white;
+    margin-top: 5%;
+    line-height: 4vh;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+.text__content_first-page {
+    color: #424242;
+    line-height: 5vh;
+}
+.text__button {
+    width: 40%;
+    height: 10%;
+    margin-top: 10%;
+    text-transform: uppercase;
+    background-color: #ff6033;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    border: none;
+    box-shadow: 1px 2px 5px 0 rgba(0,0,0,0.59); 
+}
+.text__button:hover {
+    transform: scale(1.1, 1.1);
+    transition: .1s ease-in;
+}
+.main__photo {
+    width: 55%;
+    height: 90%;  
+}
+.photo {
+    object-fit: cover;
+}
+
+
